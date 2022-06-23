@@ -9,8 +9,10 @@ var allbg = [
     var w = window.innerWidth;
       //alert(w)
     var tmailt = document.getElementById("tmailt");
-
-    if(w < 480){
+    if(w < 400){
+      tmailt.style.marginLeft = "-25px";
+      tmailt.style.fontSize = "8px";
+    }else if(w < 480){
       tmailt.style.marginLeft = "-25px";
     }
   }
